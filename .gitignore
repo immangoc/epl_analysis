@@ -1,0 +1,30 @@
+# DuckDB
+*.duckdb
+*.duckdb.wal
+
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Large raw data (keep clean/ only)
+data/raw/*.csv
+data/raw/*.png
+
+# Power BI temp files
+*.pbix.lock
+
+# Power BI project internals (optional — giữ EPL_pbip nếu muốn)
+# powerbi/EPL_pbip/
+
+# VS Code
+.vscode/
